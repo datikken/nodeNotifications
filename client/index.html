@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./_src/css/reset.css">
+    <title>Node notifications</title>
+    <style>
+        @font-face {
+            font-family: 'Thunderstorm';
+            src: url('./_src/font/Thunderstorm.otf');
+        }
+        .layout {
+            background-image: url('./_src/images/bg.jpg');
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            position: relative;
+        }
+        h1 {
+            color: #fff;
+            font-size: 5rem;
+            font-family: 'Thunderstorm', sans-serif;
+        }
+        .hero {
+            position: absolute;
+            left: 17%;
+            top: 15%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div class="hero">
+                <h1>Hello from Node</h1>
+        </div>    
+    </div>
+    <script src="./client.js"></script>
+</body>
+</html>
